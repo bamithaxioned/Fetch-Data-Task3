@@ -132,13 +132,71 @@ h1{
 /*=================================
   main styling starts here
 =================================*/
+/* banner styling starts here */
+.banner {
+  padding: 20px;
+  height: 300vh;
+}
 
+.banner .wrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
 
+.display-data {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.data-li {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgb(130, 122, 122);
+  margin: 10px;
+  cursor: pointer;
+}
 
+.title { 
+  font-size: 15px;
+  font-weight: 600;
+  color: #00FF00;
+}
 
+.title-content {
+  display: inline-block;
+  margin: 4px 0;
+  color: #222;
+  letter-spacing: 1px;  
+}
 
+.btn {
+  margin: 20px 0;
+  text-align: center;
+}
 
+.load-btn {
+  padding: 8px 15px;
+  background-color: #00FF00;
+  border: none;
+  color:rgb(85, 78, 78);
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 5px;
+  outline: none;
+  transition: .5s;
+}
+
+.load-btn:hover {
+  background-color: #333;
+  color: #00FF00;
+}
 
 /*=================================
   main styling ends here
