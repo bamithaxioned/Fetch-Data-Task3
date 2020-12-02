@@ -103,14 +103,27 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+/* CSS RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 /*=================================
   Header styling starts here
 =================================*/
 
-
-
-
-
+header{
+  background-color: #333;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff; 
+}
 
 /*=================================
   Header styling ends here
